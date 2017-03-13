@@ -3,3 +3,5 @@ function signOut() {
 	auth2.signOut().then(function() {
 		console.log('User has signed out.');
 	}
+	
+function submit
