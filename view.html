@@ -38,21 +38,43 @@
 		
 		<div id="main"> <h1> JRE ASSETS </h1> </div>
 		<div id="main">
+		<FORM METHOD="POST" ACTION="#">
+				<table>
+					<tr>
+						<th width="15%">Name</th>
+						<th width="27%">OS</th>
+						<th width="12%">CPU(s)</th>
+						<th width="12%">RAM (GB)</th>
+						<th width="12%">Type</th>
+						<th width="14%">RACK #</th>				
+					</tr>
+					<tr>
+						<td><input name="input-Name" size="10" required/></td>
+						<td><input name="input-OS" size="25" required /></td>
+						<td><input name="input-CPU" size="3" required /></td>
+						<td><input name="input-RAM" size="4" required /></td>
+						<td><input name="input-Virtual" size="3" required /></td>
+						<td><input name="input-RACK" size="9" required /></td>
+					</tr>
+				</table>
+			<INPUT TYPE="SUBMIT">
+			</FORM>
+			<br>
 			<table>
 				<tr>
 					<th>Name</th>
 					<th>OS</th>
 					<th>CPU</th>
-					<th>RAM</th>
-					<th>Virtual</th>
-					<th>RACK</th>				
+					<th>RAM (GB)</th>
+					<th>Type</th>
+					<th>RACK #</th>
 				</tr>
 				<tr>
 					<td>SERVER1</td>
 					<td>WINDOWS 2012 R2</td>
 					<td>4</td>
 					<td>8GB</td>
-					<td>YES</td>
+					<td>VIRTUAL</td>
 					<td>A3U10</td>
 				</tr>
 				<tr>
@@ -60,7 +82,7 @@
 					<td>RED HAT 7</td>
 					<td>2</td>
 					<td>4GB</td>
-					<td>YES</td>
+					<td>VIRTUAL</td>
 					<td>B10U12</td>
 				</tr>
 				<tr>
@@ -68,7 +90,7 @@
 					<td>WINDOWS 2008 R2</td>
 					<td>8</td>
 					<td>32GB</td>
-					<td>NO</td>
+					<td>PHSYICAL</td>
 					<td>A3U24</td>
 				</tr>
 				<tr>
@@ -76,7 +98,7 @@
 					<td>RED HAT 7</td>
 					<td>8</td>
 					<td>32GB</td>
-					<td>NO</td>
+					<td>PHSYICAL</td>
 					<td>A1U08</td>
 				</tr>
 				<tr>
@@ -84,7 +106,7 @@
 					<td>WINDOS 2012 R2</td>
 					<td>4</td>
 					<td>16GB</td>
-					<td>YES</td>
+					<td>VIRTUAL</td>
 					<td>C10U16</td>
 				</tr>
 				<tr>
@@ -92,7 +114,7 @@
 					<td>RED HAT 7</td>
 					<td>16</td>
 					<td>64GB</td>
-					<td>NO</td>
+					<td>PHSYICAL</td>
 					<td>D12U08</td>
 				</tr>
 			</table>
