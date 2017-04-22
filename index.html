@@ -27,8 +27,11 @@
 			  <label for="password"></label>
 			  <input type="password" required placeholder="PASSWORD" />
 			  <button type="submit" formaction="dashboard.html">Login</button>
-			  <div class="g-signin2" data-onsuccess="onSignIn" data-theme="light" datawidth="300" dataheight="45" datalongtitle="true" 
+			  <div class="g-signin2" 
+			  data-onsuccess="onSignIn" 
+			  data-scope="https://www/googleapis.com/auth/plus.login"
 			  data-redirecturi="https://ekillham.github.io/dashboard.html"
+			  data-theme="light" datawidth="300" dataheight="45" datalongtitle="true" 
 			  ></div>
 			  <p class="message">Not registered? <a href="signup.html">Request Access</a></p>
 			</form>
