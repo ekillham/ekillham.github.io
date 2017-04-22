@@ -3,7 +3,7 @@ function onSignIn (googleUser) {
 	console.log('ID: ' + profile.getId());
 	console.log('Name: ' + profile.getName());
 	console.log('Image URL: ' + profile.getImageUrl());
-	console.log(Email: ' + profile.getEmail());
+	console.log('Email: ' + profile.getEmail());
 }
 
 function signOut() {
